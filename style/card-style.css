@@ -1,0 +1,40 @@
+.cards-pokemons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+}
+
+.card-pokemon {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+}
+
+.tipo{
+  padding: 5px 10px;
+  border-radius: 50px;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.tipo-normal    { background-color: #f5f0e8; color: #7a6a50; }
+.tipo-fogo      { background-color: #fde8d8; color: #a03000; }
+.tipo-agua      { background-color: #ddeeff; color: #1a4a80; }
+.tipo-grama     { background-color: #dff2d8; color: #2d6a1f; }
+.tipo-eletrico  { background-color: #fff8cc; color: #7a5c00; }
+.tipo-gelo      { background-color: #e0f4ff; color: #1a6a80; }
+.tipo-lutador   { background-color: #f5d5d5; color: #7a0000; }
+.tipo-veneno    { background-color: #ead5f5; color: #5a1a80; }
+.tipo-terra     { background-color: #f5e8d5; color: #7a4a1a; }
+.tipo-voador    { background-color: #ece8f5; color: #4a3a7a; }
+.tipo-psiquico  { background-color: #ffd5e8; color: #7a1a4a; }
+.tipo-inseto    { background-color: #e8efd5; color: #4a5a1a; }
+.tipo-pedra     { background-color: #ede0d0; color: #6b4f2a; }
+.tipo-fantasma  { background-color: #ddd5e8; color: #3a2a5a; }
+.tipo-dragao    { background-color: #d8d5f0; color: #2a1a7a; }
+.tipo-sombrio   { background-color: #d8d8d8; color: #2a2a2a; }
+.tipo-aco       { background-color: #e8eaed; color: #3a4a5a; }
+.tipo-fada      { background-color: #fde8f0; color: #7a1a4a; }
