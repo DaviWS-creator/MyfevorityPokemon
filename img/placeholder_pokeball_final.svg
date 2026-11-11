@@ -1,0 +1,29 @@
+<svg width="200" height="200" viewBox="0 0 200 200" role="img" xmlns="http://www.w3.org/2000/svg">
+  <title>Placeholder pokébola</title>
+
+  <defs>
+    <clipPath id="bgClip">
+      <rect width="200" height="200" rx="6"/>
+    </clipPath>
+  </defs>
+
+  <rect width="200" height="200" fill="#C4C4C4" rx="6"/>
+
+  <g transform="translate(100,100)">
+    <ellipse cx="0" cy="52" rx="40" ry="5" fill="#B5B5B5"/>
+    <path d="M-48,0 A48,48 0 0,0 48,0 L48,8 A48,8 0 0,1 -48,8 Z" fill="#DEDEDE" stroke="#888" stroke-width="1.5"/>
+    <path d="M-48,0 A48,48 0 0,0 48,0" fill="#E8E8E8" stroke="#888" stroke-width="1.5"/>
+    <path d="M-48,0 A48,48 0 0,1 48,0" fill="#ADADAD" stroke="#888" stroke-width="1.5"/>
+    <rect x="-48" y="-4" width="96" height="8" fill="#888"/>
+    <circle cx="0" cy="0" r="11" fill="#E0E0E0" stroke="#888" stroke-width="2"/>
+    <circle cx="0" cy="0" r="6" fill="#D0D0D0" stroke="#888" stroke-width="1.5"/>
+    <circle cx="0" cy="0" r="2.5" fill="#C0C0C0" stroke="#888" stroke-width="1"/>
+  </g>
+
+  <g transform="rotate(-35, 100, 100)" clip-path="url(#bgClip)" opacity="0.7">
+    <text x="100" y="92"  font-family="sans-serif" font-size="22" font-weight="900" fill="#606060" text-anchor="middle" letter-spacing="-1">nenhuma</text>
+    <text x="100" y="118" font-family="sans-serif" font-size="22" font-weight="900" fill="#606060" text-anchor="middle" letter-spacing="-1">imagem</text>
+    <text x="100" y="144" font-family="sans-serif" font-size="22" font-weight="900" fill="#606060" text-anchor="middle" letter-spacing="-1">disponível</text>
+  </g>
+
+</svg>

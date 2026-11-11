@@ -1,0 +1,26 @@
+<svg width="680" height="520" viewBox="0 0 680 520" role="img" xmlns="http://www.w3.org/2000/svg">
+  <title>Placeholder pokébola</title>
+  <desc>Pokébola fechada em tons de cinza com texto nenhuma imagem disponível</desc>
+
+  <rect width="680" height="520" fill="#C4C4C4" rx="14"/>
+
+  <g transform="translate(340,230)">
+
+    <ellipse cx="0" cy="128" rx="100" ry="12" fill="#B5B5B5"/>
+
+    <path d="M-118,0 A118,118 0 0,0 118,0 L118,20 A118,20 0 0,1 -118,20 Z" fill="#DEDEDE" stroke="#888" stroke-width="3"/>
+    <path d="M-118,0 A118,118 0 0,0 118,0" fill="#E8E8E8" stroke="#888" stroke-width="3"/>
+
+    <path d="M-118,0 A118,118 0 0,1 118,0" fill="#ADADAD" stroke="#888" stroke-width="3"/>
+
+    <rect x="-118" y="-10" width="236" height="20" fill="#888"/>
+
+    <circle cx="0" cy="0" r="26" fill="#E0E0E0" stroke="#888" stroke-width="4"/>
+    <circle cx="0" cy="0" r="14" fill="#D0D0D0" stroke="#888" stroke-width="2.5"/>
+    <circle cx="0" cy="0" r="6" fill="#C0C0C0" stroke="#888" stroke-width="1.5"/>
+
+  </g>
+
+  <text x="340" y="445" font-family="sans-serif" font-size="26" font-weight="700" fill="#8A8A8A" text-anchor="middle" letter-spacing="1">nenhuma imagem disponível</text>
+
+</svg>

@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-130 -130 260 230" width="256" height="256">
+  <title>Pokébola Coração</title>
+
+  <defs>
+    <clipPath id="heartClip">
+      <path d="M0,-90 C0,-90 -15,-130 -60,-130 C-105,-130 -130,-90 -130,-55 C-130,-10 -90,30 0,90 C90,30 130,-10 130,-55 C130,-90 105,-130 60,-130 C15,-130 0,-90 0,-90 Z"/>
+    </clipPath>
+  </defs>
+
+  <!-- Metade vermelha (topo) -->
+  <path d="M0,-90 C0,-90 -15,-130 -60,-130 C-105,-130 -130,-90 -130,-55 C-130,-10 -90,30 0,90 C90,30 130,-10 130,-55 C130,-90 105,-130 60,-130 C15,-130 0,-90 0,-90 Z"
+        fill="#E63946" stroke="#222222" stroke-width="5" stroke-linejoin="round"/>
+
+  <!-- Metade branca (baixo) -->
+  <rect x="-135" y="0" width="270" height="100" fill="#F1FAEE" clip-path="url(#heartClip)"/>
+
+  <!-- Faixa preta central -->
+  <rect x="-135" y="-8" width="270" height="16" fill="#222222" clip-path="url(#heartClip)"/>
+
+  <!-- Botão central - aro externo -->
+  <circle cx="0" cy="0" r="22" fill="#ffffff" stroke="#222222" stroke-width="5"/>
+
+  <!-- Botão central - aro interno -->
+  <circle cx="0" cy="0" r="12" fill="#F1FAEE" stroke="#222222" stroke-width="3"/>
+
+  <!-- Botão central - ponto vermelho -->
+  <circle cx="0" cy="0" r="5" fill="#E63946"/>
+</svg>
